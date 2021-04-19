@@ -28,7 +28,7 @@ request.interceptors.response.use(
       const { status } = error.response;
 
       if (status === 400) {
-          return error.response.data.message || "You dont have authorized to access this page"
+          return error.response.message || "You dont have authorized to access this page"
       }
 
       return Promise.reject(error.response);
