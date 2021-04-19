@@ -17,7 +17,7 @@ const Welcome = () => {
                 {users.map(user => 
                     <div className="flex justify-center items-center">
                         <div className="text-white text-center text-sm py-4 sm:w-full sm:text-white sm:text-center">
-                            <ProfileImage imgSrc={`${process.env.REACT_APP_PUBLIC_URL}/assets/icons/profiles/${user.image}`} link={`carts/${user.id}`} name={user.name} />
+                            <ProfileImage imgSrc={`${process.env.REACT_APP_PUBLIC_URL}/assets/icons/profiles/${user.image}`} link={`product/${user.id}`} name={user.name} />
                         </div>
                     </div>
                 )}
