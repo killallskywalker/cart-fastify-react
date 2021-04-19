@@ -1,0 +1,4 @@
+/* Import Tailwind To Be Used In CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

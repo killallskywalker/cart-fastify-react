@@ -1,0 +1,27 @@
+{
+  "_comment": "In real project , we will ignore this file and using configuration management to handle the credential and etc",
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "dev_cart_demo",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port":3306
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "test_cart_demo",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port":3306
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "prod_cart_demo",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port":3306
+  }
+}
